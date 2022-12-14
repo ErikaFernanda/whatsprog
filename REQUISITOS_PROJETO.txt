@@ -1,0 +1,31 @@
+Deverá ser desenvolvido um aplicativo cliente-servidor que permita troca de mensagens de texto entre 
+usuários, baseado no princípio de funcionamento do aplicativo WhatsApp. O programa cliente deverá ter 
+interface baseada em programação visual, utilizando Qt. A comunicação entre cliente e servidor utiliza 
+sockets TCP/IP. O arquivo anexo contém as especificações e o protocolo de comunicação para 
+desenvolvimento do programa.
+
+O desenvolvimento do projeto poderá ser feito em duplas ou de forma individual.
+
+Para facilitar o desenvolvimento do projeto, estão sendo fornecidos os seguintes arquivos:
+
+- Um programa Qt que desenha as janelas da interface do cliente (mas sem executar nenhuma ação)
+
+- Um programa cliente inteiramente funcional, implementado em console (sem interface gráfica Qt)
+
+- Um programa servidor incompleto, mas funcional, que permite a conexão de um único cliente e simula 
+troca de mensagens com outros clientes fictícios. Pode ser utilizado para testar o cliente e para se 
+inspirar no desenvolvimento do servidor real.
+
+
+ARQUIVOS:::::
+1) WhatsProg - Cliente não formatado   
+Uma versão funcional do cliente WhatsProg, desenvolvido em console (sem Qt).
+
+2) WhatsProg - Interface   
+Janelas da interface do programa cliente.
+
+3) WhatsProg - Servidor monocliente   
+Um servidor completamente funcional mas que só permite a conexão de um único cliente. Simula a 
+existência de dois outros usuários, "userfake1" e "userfake2", que enviam e podem receber mensagens. 
+Do ponto de vista do cliente que se conecta, não há diferença no comportamento com relação ao 
+servidor correto.
