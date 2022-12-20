@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1671508274 source:c:\projetos\whatsprog\mysocket\mysocket.cpp
+	<iostream>
+	<string.h>
+	"mysocket.h"
+	<sys/types.h>
+	<netdb.h>
+	<unistd.h>
+
+1671510312 c:\projetos\whatsprog\mysocket\mysocket.h
+	<iostream>
+	<string>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/socket.h>
+
+1671495151 source:c:\projetos\whatsprog\whatsprog_cliente_noform\whatsprog_dados.cpp
+	"whatsprog_dados.h"
+
+1671495151 c:\projetos\whatsprog\whatsprog_cliente_noform\whatsprog_dados.h
+	<iostream>
+	<fstream>
+	<string>
+	<list>
+
