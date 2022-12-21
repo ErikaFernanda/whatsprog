@@ -3,6 +3,7 @@
 #include <iostream>
 #include "whatsprog_main.h"
 #include "ui_whatsprog_main.h"
+#include <filesystem>
 
 using namespace std;
 
@@ -62,7 +63,8 @@ WhatsProgMain::WhatsProgMain(QWidget *parent) :
   ui->tableMensagens->setHorizontalHeaderLabels(QStringList() << "Id" << "Mensagem" <<  "St");
 
   // Os icones do status das mensagens
-  QString dir = ".\\";
+  namespace fs = filesystem;
+  QString dir =QString::fromStdString(fs::current_path().generic_string()+"/");
   QString pixfile;
 
   pixfile = dir+"status0.png";
